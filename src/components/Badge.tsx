@@ -60,7 +60,7 @@ export const Badge = (props: Props) => {
           >
             <span>&nbsp;{props.footer?.company ?? 'KH'}</span>
           </a>
-          {props.footer?.text ?? 'And'}
+          {props.footer?.text ?? ' And'}
           <a
             ref={liteBadge}
             href={props.footer?.companyLink ?? 'https://Nationalbusinesstrust.com'}
